@@ -1,0 +1,43 @@
+/* 
+    home page css
+*/
+
+.home {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 2.5rem;
+}
+.home .searchbar {
+    position: relative;
+    height: 1.4rem;
+}
+.home .searchbar .iconfont {
+    position: absolute;
+    top: 0.2rem;
+    left: 0.3rem;
+    font-size: 0.9rem;
+}
+.home .searchbar input {
+    padding-left: 1.5rem;
+    height: 100%;
+    width: 100%;
+    color: #999;
+    background: none;
+    float: left;
+}
+.home .searchbar .searchbtn {
+    display: block;
+    /* width: 2.5rem; */
+    width: 0;
+    height: 1.4rem;
+    text-align: center;
+    line-height: 1.4rem;
+    font-size: 0.7rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #5f646e;
+    background: #eee;
+    overflow: hidden;
+}
