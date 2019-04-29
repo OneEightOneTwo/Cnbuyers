@@ -1,6 +1,8 @@
 import dva from 'dva';
 import './index.css';
-import './font_2n9ahrjj6he/iconfont.css';
+
+// antd
+import 'antd-mobile/dist/antd-mobile.css';
 
 // 1. Initialize
 const app = dva();

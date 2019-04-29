@@ -69,6 +69,7 @@
     font-size: 0.8rem;
     color: #888;
     line-height: 3rem;
+    text-align: center;
 }
 .login .toregister a {
     color: #f00;

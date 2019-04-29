@@ -14,15 +14,18 @@ import Footer from './components/Footer/Footer';
 function RouterConfig({ history }) {
     return (
         <Router history={history}>
-            <Switch>
-                <Route path="/home" component={Home} />
-                <Route path="/classify" component={Classify} />
-                <Route path="/cart" component={Cart} />
-                <Route path="/mine" component={Mine} />
-                <Route path="/login" component={Login} />
-                <Route path="/register" component={Register} />
-                <Redirect from="/" to="/home" />
-            </Switch>
+            <div>
+                <Switch>
+                    <Route path="/home" component={Home} />
+                    <Route path="/classify" component={Classify} />
+                    <Route path="/cart" component={Cart} />
+                    <Route path="/mine" component={Mine} />
+                    <Route path="/login" component={Login} />
+                    <Route path="/register" component={Register} />
+                    <Redirect from="/" to="/home" />
+                </Switch>
+                <Footer></Footer>
+            </div> 
         </Router>
     );
 }
