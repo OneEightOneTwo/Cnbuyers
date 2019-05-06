@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import styles from './Register.css';
 
 // 组件
-import RegisterWay from '../../components/RegisterComp/RegisterWay';
+import RegisterWay from '../../components/RegisterWay/RegisterWay';
 
 class Register extends Component {
     constructor(){

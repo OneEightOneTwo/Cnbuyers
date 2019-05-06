@@ -11,12 +11,18 @@
 .home .searchbar {
     position: relative;
     height: 1.4rem;
+    font-size: 0.7rem;
 }
 .home .searchbar .iconfont {
     position: absolute;
-    top: 0.2rem;
+    top: 0.1rem;
     left: 0.3rem;
     font-size: 0.9rem;
+    width: 1.5rem;
+    height: 1.4rem;
+}
+.home .searchbar .iconfont img {
+    height: .9rem;
 }
 .home .searchbar input {
     padding-left: 1.5rem;
@@ -25,6 +31,7 @@
     color: #999;
     background: none;
     float: left;
+    font-size: inherit;
 }
 .home .searchbar .searchbtn {
     display: block;
@@ -40,4 +47,38 @@
     color: #5f646e;
     background: #eee;
     overflow: hidden;
+}
+.home .banner_bottom {
+    width: 100%;
+}
+.home .banner_bottom a {
+    display: block;
+    width: 100%;
+}
+.home .banner_bottom a img {
+    width: 100%;
+}
+.home .navs::after {
+    content: "";
+    display: block;
+    height: 0;
+    overflow: hidden;
+    clear: both;
+    visibility: hidden;
+}
+.home .navs .item {
+    float: left;
+    width: 25% !important;
+}
+.home .navs .item a {
+    display: block;
+}
+.home .navs .item a img {
+    width: 100%;
+}
+.home .adver a {
+    display: block;
+}
+.home .adver a img {
+    width: 100%;
 }

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { withRouter } from 'react-router-dom';
 
-import './Footer.css';
+import styles from './Footer.css';
 
 class Footer extends Component {
     constructor() {
@@ -50,7 +50,7 @@ class Footer extends Component {
     }
     render() {
         return (
-            <div className="footer">
+            <div className={styles.footer}>
                 <ul>
                     {this.state.navs.map((item) => {
                         return (

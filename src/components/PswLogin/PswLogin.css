@@ -1,0 +1,30 @@
+/*
+    pswlogin page css
+*/
+
+.pswlogin .formdata p {
+    position: relative;
+    padding: 0.75rem 0.6rem 0.65rem;
+}
+.pswlogin .formdata p input {
+    height: 100%;
+    width: 100%; 
+    font-size: 0.7rem;
+    padding-left: 1.3rem;
+}
+.pswlogin .formdata p .icon {
+    position: absolute;
+    left: 0.7rem;
+    top: 1.2rem;
+    font-size: 0.7rem;
+}
+.pswlogin .formdata p .forgetPsw {
+    position: absolute;
+    color: #999;
+    font-size: 0.7rem;
+    top: 1rem;
+    right: 1rem;
+}
+.pswlogin .formdata p .getcode {
+    color: #000;
+}

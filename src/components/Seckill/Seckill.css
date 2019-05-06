@@ -1,0 +1,50 @@
+
+
+.seckill .title {
+    padding: 0.5rem;
+}
+.seckill .title {
+    display: flex;
+    font-size: .75rem;
+    justify-content: center;
+    color: #666;
+    align-items: center;
+}
+.seckill .title img {
+    max-width: 5rem;
+    height: 0.7rem;
+    line-height: 0.7rem;
+    margin-right: 1.6rem;
+}
+.seckill .title .ten {
+    color: #444;
+    margin-right: .2rem;
+}
+.seckill .title .time {
+    color: #444;
+    margin-right: 2rem;
+}
+.seckill .title .time span {
+    height: 0.8rem;
+    line-height: 0.7rem;
+    border: 1px solid #d9d9d9;
+    padding: 0 .1rem;
+    margin: 1px 1px 0px;
+}
+.seckill .title .more {
+    color: #888;
+    position: relative;
+}
+.seckill .title .more::after {
+    content: "";
+    display: block;
+    width: .4rem;
+    height: .4rem;
+    border: 1px solid #888;
+    border-left: none;
+    border-bottom: none;
+    transform: rotate(45deg);
+    position: absolute;
+    right: -0.5rem;
+    top: 0.24rem;
+}

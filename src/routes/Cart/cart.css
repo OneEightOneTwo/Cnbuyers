@@ -162,7 +162,6 @@
 	width: 100%;
 	background: white;
 	position: absolute;
-	bottom: -2.35rem;
 }
 .cart_list_fn{
 	display: flex;
@@ -194,12 +193,15 @@
 .cart_list_fn_right_set{
 	width: 6rem;
 	height: 2.35rem;
-	background: #FF5555;
+	background: #ccc;
 	float: right;
 	text-align: center;
 	line-height: 2.35rem;
 	color: white;
 	display: inline-block;
+}
+.fn_active{
+	background: #FF5555;
 }
 .del_alledit{
 	display: none;
