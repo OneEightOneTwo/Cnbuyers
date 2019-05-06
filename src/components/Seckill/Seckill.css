@@ -22,7 +22,7 @@
 }
 .seckill .title .time {
     color: #444;
-    margin-right: 2rem;
+    margin-right: 1.5rem;
 }
 .seckill .title .time span {
     height: 0.8rem;
@@ -33,18 +33,49 @@
 }
 .seckill .title .more {
     color: #888;
+    font-size: .7rem;
     position: relative;
 }
 .seckill .title .more::after {
     content: "";
     display: block;
-    width: .4rem;
-    height: .4rem;
+    width: .3rem;
+    height: .3rem;
     border: 1px solid #888;
     border-left: none;
     border-bottom: none;
     transform: rotate(45deg);
     position: absolute;
     right: -0.5rem;
-    top: 0.24rem;
+    top: 0.28rem;
+}
+.seckill .contentBox {
+    height: 96px;
+    width: 100%;
+    overflow: hidden;
+    overflow-x: scroll;
+}
+.seckill .contentBox::-webkit-scrollbar {
+    display: none;
+}
+.seckill .contentBox .content {
+    display: flex;
+    align-items: center;
+    transition: all .1s;
+    transform: translate(0, 0);
+}
+.seckill .contentBox .content .conitem {
+    width: 4rem;
+    margin-right: .5rem;
+    height: auto;
+}
+.seckill .contentBox .content .conitem img {
+    width: 4rem;
+    height: 4rem;
+}
+.seckill .contentBox .content .conitem dd {
+    color: #ef4f4f;
+    font-size: .7rem;
+    text-align: center;
+    line-height: .7rem;
 }

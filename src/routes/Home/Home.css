@@ -82,3 +82,13 @@
 .home .adver a img {
     width: 100%;
 }
+.home .picture .type {
+    display: flex;
+}
+.home .picture .type a {
+    display: block;
+    flex: 1;
+}
+.home .picture .type a img {
+    width: 100%;
+}

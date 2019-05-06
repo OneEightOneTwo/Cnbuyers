@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Carousel, WingBlank } from 'antd-mobile';
 import styles from './Banner.css'; 
 
+var timer = null;
 class Banner extends Component {
     constructor() {
         super();
@@ -12,7 +13,7 @@ class Banner extends Component {
     }
     componentDidMount() {
         // simulate img loading
-        setTimeout(() => {
+        timer = setTimeout(() => {
             this.setState({
                 data: [
                     require('../../assets/home_banner1.jpg'), 
@@ -20,8 +21,13 @@ class Banner extends Component {
                     require('../../assets/home_banner3.jpg'), 
                     require('../../assets/home_banner4.jpg'), 
                 ],
+            }, () => {
+                clearTimeout(timer);
             });
         }, 100);
+    }
+    componentWillUnmount() {
+        clearTimeout(timer);
     }
     render() {
         return (
