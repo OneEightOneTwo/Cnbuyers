@@ -22,6 +22,8 @@
 .codelogin .formdata p .icon img {
     width: 100%;
     float: left;
+    top: 1.2rem;
+    font-size: 0.7rem;
 }
 .codelogin .formdata p .forgetPsw {
     position: absolute;

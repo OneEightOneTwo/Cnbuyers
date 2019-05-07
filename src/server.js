@@ -4,7 +4,8 @@ const routers = require('./api/routers');
 
 // 跨域
 let allowOrigin = [
-    'http://localhost:3000'
+    'http://localhost:3000',
+    'http://localhost:8000'
 ];
 
 app.use((req, res, next)=>{

@@ -3,7 +3,7 @@ import styles from './RegisterWay.css';
 
 class RegisterWay extends Component {
     render(){
-        let {icon} = styles;
+		let {icon} = styles;
         return (
             <div className={styles.registerway}>
                 <div className={styles.formdata}>

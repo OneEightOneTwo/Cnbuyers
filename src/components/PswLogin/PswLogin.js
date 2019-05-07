@@ -3,7 +3,7 @@ import styles from './PswLogin.css';
 
 class PswLogin extends Component {
     render(){
-        let {icon} = styles;
+        let { icon } = styles;
         return (
             <div className={styles.pswlogin}>
                 <div className={styles.formdata}>
