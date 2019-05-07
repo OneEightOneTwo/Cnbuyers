@@ -1,6 +1,5 @@
 import dva from 'dva';
 import './index.css';
-import './font_2n9ahrjj6he/iconfont.css';
 
 // 1. Initialize
 const app = dva();

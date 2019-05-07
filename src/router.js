@@ -8,6 +8,8 @@ import Cart from './routes/Cart/Cart';
 import Mine from './routes/Mine/Mine';
 import Login from './routes/Login/Login';
 import Register from './routes/Register/Register';
+import Goodslist from './routes/Goodslist/Goodslist';
+import Detail from './routes/Detail/Detail';
 import Footer from './components/Footer/Footer';
 
 // 路由
@@ -21,6 +23,8 @@ function RouterConfig({ history }) {
                 <Route path="/mine" component={Mine} />
                 <Route path="/login" component={Login} />
                 <Route path="/register" component={Register} />
+                <Route path="/goodslist" component={Goodslist} />
+                <Route path="/detail" component={Detail} />
                 <Redirect from="/" to="/home" />
             </Switch>
         </Router>
