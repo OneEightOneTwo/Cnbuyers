@@ -1,0 +1,88 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+.detail{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction:column
+}
+.fui_header{
+    width: 100%;
+    height: 2.1rem;
+    background: #f7f7f7;
+    font-size: .8rem;
+    position: relative;
+    flex: 1;
+}
+.fui_header_left{
+    width: 10%;
+    position: absolute;
+    left: 0;
+    /* padding-left: .3rem; */
+    height: 2.1rem;
+    line-height: 2.1rem;
+    z-index: 2;
+}
+.fui_header_left .back{
+    width: 100%;
+    height: 2.1rem;
+    line-height: 2.1rem;
+    margin: 0;
+    top: 0;
+    color: #999;
+    display: block;
+    padding: 0 .1rem;
+    font-size: .7rem;
+    background: url(../../assets/mine.icon/houtui.png) no-repeat center center;
+}
+.title{
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    left: 1.5rem;
+    top: 0
+}
+.fui_tab{
+    width: 100%;
+}
+.tab{
+    display: inline-block;
+    width: 50%;
+    height: 2.1rem;
+    text-align: center;
+    line-height: 2.1rem;
+    font-size: 0.6rem;
+}
+.active{
+    display: inline-block;
+    width: 50%;
+    height: 2.1rem;
+    text-align: center;
+    line-height: 2.1rem;
+    font-size: 0.6rem;
+    color: #ff5555;
+    border-bottom:2px solid #ff5555;
+    z-index: 100;
+}
+.footer{
+    width: 100%;
+    /* height: 2.2rem; */
+    flex: 1;
+    background: #ff5555;
+}
+.detailmain{
+    width: 100%;
+    /* height: 100%; */
+    flex: 9;
+    background: palegoldenrod;
+}
+.fui_swipe_item{
+    width: 100%;
+    height:308px;
+}
+.fui_swipe_item img{
+    width: 100%;
+    height: 308px;
+}

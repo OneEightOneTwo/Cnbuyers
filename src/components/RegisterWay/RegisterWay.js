@@ -39,7 +39,7 @@ class RegisterWay extends Component {
                         </span>
                         <input type="text" placeholder="请重复输入密码"/>
                     </p>
-                </div>
+                 </div>
             </div>
         );
     }

@@ -1,0 +1,184 @@
+.goodslist{
+    white-space: nowrap;
+    color: #000;
+    text-align: center;
+    display: block;
+    width: 100%;
+    padding: 0;
+    z-index: 1;
+}
+.head{
+    width: 100%;
+    position: fixed;
+    z-index: 3;
+    background: #fff
+}
+.fui_header{
+    background: #fff;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    font-size: .8rem;
+    margin: 0;
+    z-index: 1;
+    display: flex;
+    border-bottom: 1px solid #d9d9d9;
+    align-items: center;
+
+}
+.fui_header_left {
+    padding-left: .3rem;
+
+}
+.fui_header a {
+    height: 2.2rem;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    color: #999;
+    display: block;
+    padding: 0 .5rem;
+    font-size: .7rem;
+}
+.back{
+    background: url(../../assets/mine.icon/houtui.png) no-repeat center center
+}
+.tittle {
+    color: #000;
+    text-align: center;
+    display: block;
+    width: 100%;
+    padding-top: 10px;
+    left: 30px;
+    z-index: 1;
+}
+.searchbar, .fui-searchbar {
+    height: auto;
+}
+.search-input i {
+    font-size: 0.9rem;
+    color: #b4b4b4;
+    line-height: 1.4rem;
+    width: 32px;
+    height: 32px;
+}
+.searchbar .search_input input {
+    margin: 0;
+    height: 1.4rem;
+    background: url(../../assets/mine.icon/sousuo.png) no-repeat 5px center
+}
+.search_input i + input {
+    padding-left: 1.4rem;
+}
+.search_input input {
+    box-sizing: border-box;
+    width: 85%;
+    /* display: block; */
+    border: none;
+    border-radius: 0.25rem;
+    font-family: inherit;
+    color: #3d4145;
+    font-size: 0.7rem;
+    font-weight: normal;
+    padding: 0 0.5rem;
+    border: 1px solid #b4b4b4;
+    /* background: #b4b4b4; */
+}
+.fui_header_right{
+    padding-right: 10px;
+}
+.hamb{
+    /* display: inline-block; */
+    background:url(../../assets/mine.icon/Category1.png)no-repeat center center
+}
+/* 筛选 */
+.sort{
+    width: 100%;
+    font-size: 0.7rem;
+}
+.item{
+    float: left;
+    width: 23%;
+    text-align: center;
+    padding: .4rem 0;
+}
+.text{
+    width: 100%;
+    display: inline-block;
+    border-right: 1px solid #b4b4b4;
+}
+.icon_filter{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background:url(../../assets/mine.icon/ld.png) no-repeat center center
+}
+/* 商品列表 */
+.lis{
+    width: 100%;
+    /* height: auto; */
+    font-size: 0.7rem;
+    overflow: auto;
+    padding: 0.2rem;
+    border-top:1px solid #d9d9d9;
+    background: #efefef;
+    padding-top: 4.32rem;
+}
+.contents{
+    width: 100%;
+    height: auto;
+    background: #efefef
+}
+.fui_goods_item{
+    float: left;
+    width: 45%;
+    margin: 0.25rem;
+    position: relative;
+    height: auto;
+    background: #fff
+    
+}
+.fui_goods_item .img{
+    width: 139px;
+    height: 139px;
+    display: block;
+}
+.fui_goods_item .image{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.detail{
+    padding: 0.5rem;
+    overflow: hidden;
+}
+.name{
+    height: 1.7rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 0.65rem;
+    line-height: 0.9rem;
+}
+.price{
+    margin-top: 0.3rem;
+    position: relative;
+}
+.tex{
+    flex: 1;
+    color: #ff5555;
+    font-size: 0.8rem;
+}
+.buy{
+    width: auto;
+    height:1.1rem;
+    background: #ff5555;
+    color: #fff;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    font-size: .5rem;
+    padding:0rem 0.35rem;
+    text-align: center;
+    border-radius:3px;
+    line-height: 1.1rem;
+}
